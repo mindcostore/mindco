@@ -1,128 +1,153 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mind Wear - Streetwear com alma de luta. Drop 01 disponível. Vista sua luta.">
-  <title>Mind Wear</title>
+  <title>Mind Co | Drop 01</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0d0d0d;
-      color: white;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #111;
+      color: #fff;
     }
     header {
-      padding: 40px 20px;
+      padding: 40px;
       text-align: center;
-      background-color: #000;
-      font-size: 2.2rem;
-      font-weight: bold;
-      letter-spacing: 2px;
+    }
+    header img {
+      width: 240px;
     }
     section.hero {
-      background-image: url('BANNER.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 80vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       text-align: center;
-    }
-    .hero h1 {
-      font-size: 2.8rem;
-      text-shadow: 0 0 10px rgba(0,0,0,0.8);
-    }
-    section.sobre {
-      padding: 60px 20px;
-      max-width: 800px;
-      margin: 0 auto;
-      font-size: 1.1rem;
-      line-height: 1.6;
+      padding: 20px;
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.7;
     }
     .produtos {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 30px;
-      padding: 40px 20px;
-      max-width: 1200px;
-      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 60px 20px;
     }
     .produto {
-      background: #1a1a1a;
-      border-radius: 12px;
-      overflow: hidden;
-      text-align: center;
-      padding-bottom: 20px;
+      max-width: 300px;
+      text-align: left;
     }
     .produto img {
       width: 100%;
-      display: block;
+      border-radius: 12px;
     }
-    .produto h3 {
-      font-size: 1.2rem;
-      margin: 10px 0;
+    .produto h2 {
+      font-size: 20px;
+      margin: 16px 0 8px;
     }
     .produto p {
-      font-size: 0.95rem;
-      padding: 0 10px;
+      font-size: 15px;
+      color: #ccc;
+      line-height: 1.6;
     }
     .botao {
       display: inline-block;
-      background: white;
-      color: black;
+      margin-top: 16px;
       padding: 10px 20px;
+      background-color: #fff;
+      color: #000;
       border-radius: 8px;
-      margin-top: 12px;
       text-decoration: none;
       font-weight: bold;
+      transition: 0.3s;
+    }
+    .botao:hover {
+      background-color: #ccc;
     }
     footer {
+      padding: 40px;
       text-align: center;
-      padding: 40px 20px;
-      font-size: 0.9rem;
-      color: #888;
+      font-size: 14px;
+      color: #999;
     }
   </style>
 </head>
 <body>
-  <header>MIND</header>
+  <header>
+    <img src="assets/logo-mindco.png" alt="MindCo Logo">
+  </header>
 
   <section class="hero">
-    <h1>Vista sua luta</h1>
-  </section>
-
-  <section class="sobre">
     <p>
-      A MIND surgiu de uma necessidade real. O nome vem do inglês: Mind. Significa Mente, mas também Cuidar de. Cuide do seu jogo. Mind Your Game é sobre disciplina, visão e presença. Seja bem-vindo. Essa é a sua luta — vista com presença.
+      A MIND surgiu de uma necessidade real. O nome vem do inglês: Mind. Significa Mente, mas também Cuidar de.
+      Cuide do seu jogo. <em>Mind Your Game</em> é sobre disciplina, visão e presença. Seja bem-vindo.<br>
+      Essa é a sua luta — vista com presença.
     </p>
   </section>
 
   <section class="produtos">
     <div class="produto">
-      <img src="gentleart.jpg" alt="Gentle Art">
-      <h3>Gentle Art</h3>
-      <p>A essência do jiu-jitsu estampada nas costas. Técnica, presença e respeito.</p>
-      <a class="botao" href="https://wa.me/seunumerowhatsapp" target="_blank">Comprar</a>
+      <img src="assets/insignia-offwhite.png" alt="Insígnia">
+      <h2>Insígnia</h2>
+      <p>Como um selo marcado em aço, “Insígnia” carrega o símbolo da Mind Company.<br>
+      Uma peça feita pra quem leva sua postura no peito, com firmeza e estilo.<br><br>
+      Design vertical, traço firme, alma presente.<br>
+      Essa não é só uma camiseta — é sua marca no campo.<br><br>
+      <strong>Características:</strong><br>
+      Cor: Off-White<br>
+      Material: 100% algodão de alta qualidade<br>
+      Fio: 20.1 penteado<br>
+      Gramatura: 220<br>
+      Corte: Oversized Premium<br>
+      Reforço: Ombro a ombro para melhor qualidade, com bainha na barra de 4 cm<br>
+      Gola: Anel de 3 cm, ribana canelada 2x1 com elastano e pesponto de 2 agulhas<br>
+      Zero encolhimento.</p>
+      <a class="botao" href="/checkout/insignia">Comprar</a>
     </div>
+
     <div class="produto">
-      <img src="core.jpg" alt="Core">
-      <h3>Core</h3>
-      <p>Minimalismo, identidade e presença. O DNA da Mind no peito.</p>
-      <a class="botao" href="https://wa.me/seunumerowhatsapp" target="_blank">Comprar</a>
+      <img src="assets/core-preta.png" alt="Core">
+      <h2>Core</h2>
+      <p>A base da mente. A linha de frente.<br>
+      “Core” é a peça que define o que a Mind representa: identidade, silêncio e presença.<br><br>
+      Minimalismo que fala alto.<br>
+      Pensada pra qualquer ocasião — do tatame à rua.<br><br>
+      Menos fala. Mais intenção.<br><br>
+      <strong>Características:</strong><br>
+      Cor: Preta<br>
+      Material: 100% algodão de alta qualidade<br>
+      Fio: 20.1 penteado<br>
+      Gramatura: 220<br>
+      Corte: Oversized Premium<br>
+      Reforço: Ombro a ombro para melhor qualidade, com bainha na barra de 4 cm<br>
+      Gola: Anel de 3 cm, ribana canelada 2x1 com elastano e pesponto de 2 agulhas<br>
+      Zero encolhimento.</p>
+      <a class="botao" href="/checkout/core">Comprar</a>
     </div>
+
     <div class="produto">
-      <img src="insignia.jpg" alt="Insígnia">
-      <h3>Insígnia</h3>
-      <p>Uma marca vertical que fala por você. Estilo com firmeza e alma.</p>
-      <a class="botao" href="https://wa.me/seunumerowhatsapp" target="_blank">Comprar</a>
+      <img src="assets/gentleart-modelo.png" alt="Gentle Art">
+      <h2>Gentle Art</h2>
+      <p>A essência do Jiu-Jitsu em forma de arte.<br>
+      \"Gentle Art\" representa o equilíbrio entre técnica e domínio.<br>
+      Um manifesto visual de quem vence sem brutalidade (às vezes) — com presença, com mente.<br><br>
+      Detalhe em vermelho estonado, inspirado na raiz.<br><br>
+      Vista com disciplina. Lute com propósito.<br><br>
+      <strong>Características:</strong><br>
+      Cor: Off-White<br>
+      Material: 100% algodão de alta qualidade<br>
+      Fio: 30.1 penteado<br>
+      Gramatura: 175<br>
+      Corte: Oversized<br>
+      Estampa: Gentle Art<br>
+      Zero encolhimento.</p>
+      <a class="botao" href="/checkout/gentleart">Comprar</a>
     </div>
   </section>
 
   <footer>
-    &copy; 2025 Mind Wear. Todos os direitos reservados.
+    &copy; 2025 Mind Co. Todos os direitos reservados.
   </footer>
 </body>
 </html>
